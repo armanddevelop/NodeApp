@@ -1,0 +1,25 @@
+{
+  "name": "backendnode",
+  "version": "0.1.0",
+  "description": "chat like telegram but better",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "telegram",
+    "server"
+  ],
+  "author": "armando salamanca ayon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.5.1",
+    "uuid": "^8.3.2"
+  }
+}
