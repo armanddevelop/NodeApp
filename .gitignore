@@ -95,6 +95,9 @@ build/Release
 node_modules/
 jspm_packages/
 
+#ignore public files
+public/files
+
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
