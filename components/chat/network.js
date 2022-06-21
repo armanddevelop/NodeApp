@@ -6,10 +6,11 @@ const chatController = require("./controller");
 const { successResponse, errorResponse } = response;
 const { addChat, listChat } = chatController;
 
-router.get("/:userId", async (req, res) => {
+router.get("/user/:userId", async (req, res) => {
   try {
     const { userId } = req.params;
     const resp = await listChat(userId);
+    console.log("esto vale resp ", resp);
     successResponse(res, resp);
   } catch (err) {
     errorResponse(res, 500, err);
